@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:game/pages/game/Count_Number.dart';
-import 'package:game/pages/game/UI.dart';
-import 'package:game/pages/game/game_page.dart';
-import 'package:game/pages/game/hw6.dart';
+
+import 'package:game/pages/game/game_pagenew.dart';
 
 
 void main() {
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: countNumber(),
+      home: Gamepagenew(),
     );
   }
 }
